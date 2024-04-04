@@ -53,7 +53,6 @@ addToyForm.addEventListener('submit', function (event) {
 toyCollectionDiv.addEventListener('click', function (event) {
   let likeButtonIsPressed = event.target.className === "like-btn"
 
-
   if (likeButtonIsPressed) {
     let id = event.target.parentElement.dataset.id
     let like = event.target.previousElementSibling
